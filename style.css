@@ -1,0 +1,351 @@
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Image hover effect */
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #32e382; /* Bright green background */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Navbar styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #14d46a; /* Green navbar */
+    border-radius: 0 0 15px 15px; /* Rounded bottom corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.dropdown-menu {
+    background-color: #14d46a;
+    border: none;
+    border-radius: 0 0 10px 10px;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #04f772;
+    color: #000;
+}
+
+/* Main content section */
+.maincontant {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 17%;
+    margin-top: 5%;
+    padding: 15px;
+    gap: 20px;
+    background-image: linear-gradient(180deg, #00ff73, #027a38);
+}
+
+.maincontant img {
+    border-radius: 10px;
+    max-width: 30%;
+    height: auto;
+}
+
+.intro-text h1 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.intro-text h3 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.intro-text p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Main image */
+.img {
+    position: relative;
+    left: 25%;
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+ /* Product cards container */
+
+.contant, .ele {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 75%;
+    background-color: rgba(13, 209, 101, 0.822);
+    position: relative;
+    left: 10%;
+}
+
+.contant {
+    position: relative;
+    left:1%;
+}
+
+ .ele{
+    width: 1000px;
+    border: 0px solid black;
+    border-radius: 15px 15px 15px 15px; /* Rounded bottom corners */
+    box-shadow: 0 2px 5px black;
+    height: 400px;
+    /* background-color: rgba(209, 196, 13, 0.822); */
+    /* background-color: rgba(13, 209, 199, 0.822); */
+    background-color: rgba(13, 209, 101, 0.822);
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+    max-width:450 ;
+ }
+
+ .cardd {
+    position: relative;
+    width: 200px;
+    height:300px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    margin: 50px 20px 10px 20px;
+    border: 0px solid black;
+    border-radius: 15px 15px 15px 15px; /* Rounded bottom corners */
+    box-shadow: 0 2px 5px black;
+  }
+
+/* Offer cards */
+.offercard {
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    /* margin: 10px; */
+    background-color: rgba(0, 255, 115, 0.822);
+    text-align: center;
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+.offercard img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+}
+
+
+.cardd img {
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    width: 60%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cardd .heading {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Buttons */
+.orderbtn, .cardbtn {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.orderbtn {
+    /* background-color: lightgreen;
+    border: 1px solid rgb(0, 255, 0); */
+    background-color: rgb(238, 224, 144);
+    border: 1px solid rgb(255, 174, 0);
+}
+
+.orderbtn:hover {
+    background-color: orange;
+}
+
+.cardbtn {
+    background-color: lightblue;
+    border: 1px solid rgb(0, 183, 255);
+}
+
+.cardbtn:hover {
+    background-color: rgb(0, 183, 255);
+}
+
+/* Cart section */
+.showCard {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(13, 209, 101, 0.822);
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.showCard h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.showCard .btn-primary {
+    background-color: #14d46a;
+    border: none;
+}
+
+.showCard .btn-primary:hover {
+    background-color: #04f772;
+}
+
+.showCard .btn-danger {
+    background-color: #fc6060;
+}
+
+.showCard .btn-danger:hover {
+    background-color: #cc0000;
+}
+
+.showCard .btn-success {
+    background-color: lightgreen;
+}
+
+.showCard .btn-success:hover {
+    background-color: green;
+}
+
+
+   @media (max-width: 768px) {
+            .maincontant {
+    width: 95%;
+    left: 3%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 10px;
+    margin-top: 20%;
+  }
+  .img{
+    margin-left: -35%;
+  }
+
+  .offercard{
+    position: relative;
+    /* left: -20%; */
+    margin-right: 25px;
+    width: 90%;
+  }
+
+  .contant{
+    position: relative;
+    left: 0%;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .offercard{
+    position: relative;
+    left: 6%;
+    height: 90%;
+  }
+  .offercard img{
+    width: 100%;
+  }
+  .maincontant img{
+    width: 250px;
+    height: 100px;
+    position: relative;
+    left: 20%;
+  }
+  .ele {
+    width: 95%;
+    max-width: 95%;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    left: -2.5%;
+  }
+  .img1{
+    margin-top: -5px;
+    height: 50%;
+    width: 100%;
+  }
+ .cardd{
+    height: 400px;
+ }
+
+}

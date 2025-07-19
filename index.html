@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elampillai Saree Collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Riya Text</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link " aria-current="page" href="#container1" onclick="backToProducts()">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="openInstaDM()">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showCart()">View Cart</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sarees Collection</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#Today-offer">Today Offers</a></li>
+                            <li><a class="dropdown-item" href="#Silk-Saree">Samuthrika & Vasthrakala</a></li>
+                            <li><a class="dropdown-item" href="#Half-Saree">Kanchipuram Soft Silk</a></li>
+                            <li><a class="dropdown-item" href="#Cotton-Saree">Exclusive Bridal Saree</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container1" id="container1">
+        <section class="maincontant">
+            <div>
+                <img src="samuthrika18.jpeg" class="img" alt="saree">
+                <h2 class="text-center mt-2">Elampillai Saree Collection</h2>
+            </div>
+            <div class="intro-text">
+                <h1>Riya Text</h1>
+                <h3>From Elampillai</h3>
+                <p>Contact us: 8056510875, 9363008505</p>
+            </div>
+        </section>
+
+        <div id="Today-offer" class="mbcontent" style="margin-bottom: 10%;"></div>
+        <section  class="mb-5">
+            <h1 class="text-center">Aadi Offer Live Now</h1>
+            <div id="offerContainer" class="contant"></div>
+        </section>
+
+        <div id="Silk-Saree" class="mbcontent" style="margin-bottom: 10%;"></div>
+        <section  class="mb-5">
+            <h1 class="text-center"> Samuthrika & Vasthrakala</h1>
+            <h1 style="font-size: 20px; color: black;">🧚‍♀️🧚‍♀️🧚‍♀️ Special   Samuthrika & Vasthrakala type wedding model sarees..🧚‍♀️🧚‍♀️🧚‍♀️</h1>
+            <h2 class="text-center" style="font-size: 15px;">🌹Fancy design and fancy models..🌹</h2>
+            <h2 class="text-center" style="font-size: 15px;">🌹Bady all over grand colour full Jari design s & also  vibrant colours..🌹</h2>
+            <h2 class="text-center" style="font-size: 15px;">🌹Contrast pallu & blouse..🌹</h2>
+            <div id="Silkcontainer" class="ele"></div>
+        </section>
+
+        <div id="Half-Saree" class="mbcontent" style="margin-bottom: 10%;"></div>
+        <section  class="mb-5">
+            <h1 class="text-center"> 🌸 Kanchipuram Soft Silk Sarees 🌸</h1>
+            <h2 class="text-center" style="font-size: 15px;">🌸  All Over copper  Jari Buttas🌸</h2>
+            <h2 class="text-center" style="font-size: 15px;">🌸 Rich contrest  Pallu And  contrest  Blouse🌸</h2>
+            <h2 class="text-center" style="font-size: 15px;">🌸 Light Weight and Soft Cloth 🌸</h2>
+            <h2 class="text-center" style="font-size: 15px;">🌸 Ready to Ship...  Dispatch 🌸</h2>
+            <div id="Halfcontainer" class="ele"></div>
+        </section>
+
+        <section id="Cotton-Saree" class="mbcontent" class="mb-5">
+           <h1 class="text-center"> 💥EXCLUSIVE BRIDAL SAREE COLLECTIONS  💥</h1>
+            <h2 class="text-center" style="font-size: 15px;"> 💥100% Genuine Quality products</h2>
+            <h2 class="text-center" style="font-size: 15px;">💥Brocade sarees</h2>
+            <h2 class="text-center" style="font-size: 15px;">💥Kanchipuram pattern Rich jari Pallu </h2>
+            <h2 class="text-center" style="font-size: 15px;">💥Extreme jari border Contrast Blouse </h2>
+            <h2 class="text-center" style="font-size: 15px;">💥saree length 6.30 mtrs and weight 0.900 grms(aprox) </h2>
+            <h2 class="text-center" style="font-size: 15px;">💥Cloth feel very</h2>
+            <h2 class="text-center" style="font-size: 15px;">💥Direct manufacture </h2>
+            <div id="cottoncontainer" class="ele"></div>
+        </section>
+    </div>
+
+    <div class="showCard" id="showCard" style="display: none;"></div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
