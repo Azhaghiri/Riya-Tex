@@ -96,8 +96,8 @@ const products = {
         { id: 326, title: "Exclusive Bridal  Saree", price: 1100, mrp: 2000, image: "bridal26.jpeg" },
         { id: 327, title: "Exclusive Bridal  Saree", price: 1100, mrp: 2000, image: "bridal27.jpeg" },
         { id: 328, title: "Exclusive Bridal  Saree", price: 1100, mrp: 2000, image: "bridal28.jpeg" },
-        { id: 329, title: "Exclusive Bridal  Saree", price: 1100, mrp: 2000, image: "bridal29.jpeg" },
-        { id: 330, title: "Exclusive Bridal  Saree", price: 1100, mrp: 2000, image: "bridal30.jpeg" },
+        { id: 330, title: "Exclusive Bridal  Saree", price: 1100, mrp: 2000, image: "bridal29.jpeg" },
+        { id: 331, title: "Exclusive Bridal  Saree", price: 1100, mrp: 1000, image: "bridal30.jpeg" },
         
     ]
 };
